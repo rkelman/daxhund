@@ -1,0 +1,27 @@
+- YTD performance
+   - add year start dividend (given)
+   - add year start price (avg of "12/31" and "1/1")
+   - Identify "true" DaxHunds
+- tracking DAX, DOW - DAX Complete
+      - track DOW 30
+- price targets, change alerts (DMA, daxhund entries exits)
+    - calculate rankings, identify ranking changes
+    - price < 50 dma < 200 dma
+    - get these in your email?
+- about daxhund
+    - blog
+    - contact us
+- price & DMA graphing
+- menu/nav
+- fonts
+- microservices developer tools (???)
+
+-----------
+- retry when price = 0; or no entry - otc-check, fra-check - complete
+- have all scrapers use checkTrading - complete
+- dividends and refactor scraper - complete
+- initial about - complete
+- 50, 200 DMA - complete
+- check when markets are/were open (create a holiday table) - complete checkTrading($mkt)
+- fix monthly performance errors - complete getMonthAgo($currDate, $mkt_type)
+- log scrapers, checks - include_once
